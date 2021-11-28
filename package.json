@@ -1,0 +1,34 @@
+{
+  "name": "set-environment",
+  "version": "0.2.0",
+  "description": "Simple node script to change between frontend environment variables",
+  "main": "src/index.js",
+  "bin": "set-environment.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "set-environment.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klougod/set-environment.git"
+  },
+  "keywords": [
+    "cli",
+    "environment",
+    "environment variables",
+    "set-environment",
+    "frontend environment",
+    "frontend enviroment variables"
+  ],
+  "author": "klougod",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/klougod/set-environment/issues"
+  },
+  "homepage": "https://github.com/klougod/set-environment#readme"
+}
