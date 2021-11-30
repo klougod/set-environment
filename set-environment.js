@@ -29,7 +29,7 @@ function readFileContent(fileName) {
 
 function writeFileContent(fileContent) {
   try {
-    fs.writeFileSync("./src/env.json", JSON.stringify(envFileContent, undefined, 2));
+    fs.writeFileSync("./src/env.json", JSON.stringify(fileContent, undefined, 2));
   } catch(error){
     console.error("[ERROR]: could not write src/env.json file, please verify src dir existence and permissions");
   }
